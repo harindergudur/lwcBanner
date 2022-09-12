@@ -1,0 +1,39 @@
+<template>
+    <template for:each={bannerList} for:item="banner">
+        <li key={banner.id} class="hide">
+            <template if:true={banner.Error}>
+                <div class="slds-notify slds-notify_alert slds-alert_error error" role="alert">
+                    <span class="slds-assistive-text">error</span>
+                        {banner.msg} 
+                        <lightning-helptext
+                            icon-name="utility:info_alt"
+                            content={banner.helptext}
+                            class="slds-button_icon-small bnr-info"
+                        ></lightning-helptext>
+                </div>
+            </template>     
+        <template if:true={banner.Warning}>
+            <div class="slds-notify slds-notify_alert slds-alert_warning warning" role="alert">
+                    <span class="slds-assistive-text">warning</span>
+                        {banner.msg}
+                        <lightning-helptext
+                        icon-name="utility:info_alt"
+                        content={banner.helptext}
+                        class="slds-button_icon-small bnr-info"
+                    ></lightning-helptext>
+            </div>
+        </template>
+        <template if:true={banner.Info}>
+            <div class="slds-notify slds-notify_alert info" role="alert">
+                    <span class="slds-assistive-text">warning</span>
+                        {banner.msg}
+                        <lightning-helptext
+                        icon-name="utility:info_alt"
+                        content={banner.helptext}
+                        class="slds-button_icon-small bnr-info"
+                    ></lightning-helptext>
+            </div>
+        </template>
+    </li>
+    </template>
+</template>

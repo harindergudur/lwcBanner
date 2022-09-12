@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Test Contact Banner</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Banner_Condition__c</field>
+        <value xsi:type="xsd:string">row.Account.Name.includes(&quot;Testing&quot;)</value>
+    </values>
+    <values>
+        <field>Banner_Message__c</field>
+        <value xsi:type="xsd:string">Test Contact - Do not use 🧨🧨🧨</value>
+    </values>
+    <values>
+        <field>Banner_Setting__c</field>
+        <value xsi:type="xsd:string">Contact_Settings</value>
+    </values>
+    <values>
+        <field>Banner_Type__c</field>
+        <value xsi:type="xsd:string">Warning</value>
+    </values>
+    <values>
+        <field>Help_Text__c</field>
+        <value xsi:type="xsd:string">The account associated with this contact is a test account and does not contain any real data.</value>
+    </values>
+</CustomMetadata>
