@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Test Contact Phone</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Banner_Condition__c</field>
+        <value xsi:type="xsd:string">row.Phone == &quot;911&quot;</value>
+    </values>
+    <values>
+        <field>Banner_Message__c</field>
+        <value xsi:type="xsd:string">Phone Number Invalid 📱📱📱</value>
+    </values>
+    <values>
+        <field>Banner_Setting__c</field>
+        <value xsi:type="xsd:string">Contact_Settings</value>
+    </values>
+    <values>
+        <field>Banner_Type__c</field>
+        <value xsi:type="xsd:string">Info</value>
+    </values>
+    <values>
+        <field>Help_Text__c</field>
+        <value xsi:type="xsd:string">The phone number associated on this contact is incorrect or cannot be used. Please update the phone number</value>
+    </values>
+</CustomMetadata>
