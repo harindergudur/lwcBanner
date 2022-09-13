@@ -1,7 +1,7 @@
 
 # LWC Banner
 
-A Record page banner that can be placed on any record pagea and can be configured easly by admin/BA's and involves no code changes to add/modify/change the criteria of the banner. Pull into your scrach org and test it out.
+A Record page banner that can be placed on any record page and can be configured easly by Admin/BA's and involves no code changes to add/modify/change the criteria of the banner. You can change the condition of the banner just like updating a validation rule. Pull into your scrach org and test it out.
 
 
 ## Screenshots
@@ -36,6 +36,7 @@ Example 1 : Show a banner on the contact page when the account name contains 'Te
             * Populate the object API Name Field
          * https://github.com/harindergudur/lwcBanner/blob/main/force-app/main/default/customMetadata/Banner_Setting.Contact_Settings.md-meta.xml
         b.Creata a custommeta data record under Banner(Banner__mdt)
+         * Use 'row.' as perfix for each field you use in the condition.
          * git/actual banner setting on Contact
     2. Add the PageBanner lwc component to the Contact page.
     3. Create a new contact on a Account with account name as 'Testing'
