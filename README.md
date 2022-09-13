@@ -53,4 +53,4 @@ Example 1 : Show a banner on the contact page when the account name contains 'Te
 
 ## 🚀 About Me
 I'm a Salesforce developer...
-www.linkedin.com/in/gharinder
+www.linkedin.com/in/harindergudur
