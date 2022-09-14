@@ -12,6 +12,6 @@
     </values>
     <values>
         <field>Query_Fields__c</field>
-        <value xsi:type="xsd:string">Id,Name</value>
+        <value xsi:type="xsd:string">Id,Name,Type</value>
     </values>
 </CustomMetadata>

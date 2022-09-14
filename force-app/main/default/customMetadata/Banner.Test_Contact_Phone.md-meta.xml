@@ -8,7 +8,7 @@
     </values>
     <values>
         <field>Banner_Condition__c</field>
-        <value xsi:type="xsd:string">row.Phone == &quot;911&quot;</value>
+        <value xsi:type="xsd:string">row.Phone == &quot;1234567890&quot;</value>
     </values>
     <values>
         <field>Banner_Message__c</field>
