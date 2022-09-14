@@ -41,10 +41,12 @@ Example 1 :
     2.Creata 2 custommetadata records for each Banner under Banner(banner_mdt).Refer below for the format
          * https://github.com/harindergudur/lwcBanner/blob/main/force-app/main/default/customMetadata/Banner.Test_Contact_Banner.md-meta.xml
          * https://github.com/harindergudur/lwcBanner/blob/main/force-app/main/default/customMetadata/Banner.Test_Contact_Phone.md-meta.xml
-         * Notes - Use 'row.' as perfix for each field you use in the condition.
-        
+         * Notes - 
+            * Use 'row.' as perfix for each field you use in the condition.  
+            * Keep the Error message simple and short. You can add the longer description in the Help Text field which is mapped to the help icon beside the banner.  
     3. Add the PageBanner lwc component to the Contact page.
-    4. Create a new contact on a Account with account name as 'Testing'
+    4. Create a new contact on a Account with account name as 'Testing'.You should see the banner with Test you setup in the custommetadata.
+    5. Update the phone to '1234567890' and you should see both the banner at top of the page.
 
 ![App Screenshot](/images/BannerSetting.png)
 
