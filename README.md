@@ -1,7 +1,7 @@
 
 # LWC Banner
 
-A Record page banner that can be placed on any record page and can be configured easly by Admin/BA's and involves no code changes to add/modify/change the criteria of the banner. You can also change the condition of the banner through custom metadata just like updating a validation rule. Pull into your scrach org and test it out.
+A customizable lwc record banner that can be configured through custom metadata which can be placed on any record page. The criteria to show the banner can also be customized through custom metadata without making any code changes. Pull into your scrach org and test it out.
 
 
 ## Screenshots
