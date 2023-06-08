@@ -11,7 +11,7 @@ A customizable lwc record banner that can be configured through custom metadata 
 ![App Screenshot](/images/contactDemo.png)
 
 ![App Screenshot](/images/AccountDemo.png)
-Yes! You can add emoji's.
+
 
 
 
